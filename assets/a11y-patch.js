@@ -1,0 +1,1 @@
+document.addEventListener("keydown",function(e){if(e.key==="Escape"){var t=document.querySelectorAll(".gallery-lightbox.is-open");t.length>0&&t.forEach(function(l){l.classList.remove("is-open"),document.body.style.overflow=""})}});
